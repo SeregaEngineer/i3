@@ -23,7 +23,11 @@
   # available, otherwise `xterm-256color` is used.
   #TERM: alacritty
 
-#window:
+#import = [
+#    "~/.config/alacritty/dracula.toml"
+#]
+
+window:
   # Window dimensions (changes require restart)
   #
   # Number of lines/columns (not pixels) in the terminal. Both lines and columns
@@ -68,7 +72,7 @@
   #
   # Window opacity as a floating point number from `0.0` to `1.0`.
   # The value `0.0` is completely transparent and `1.0` is opaque.
-  #opacity: 1.0
+  opacity: 0.8
 
   # Startup Mode (changes require restart)
   #
@@ -158,7 +162,7 @@ font:
     #style: Bold Italic
 
   # Point size
-  size: 9
+  size: 10.5
 
   # Offset is the extra space around each character. `offset.y` can be thought
   # of as modifying the line spacing, and `offset.x` as modifying the letter
@@ -910,7 +914,7 @@ mouse_bindings:
 #  primary:
 #    background: '0x300a24'
 #   foreground: '0xeeeeec'
-
+#
   # 0x Colors the cursor will use if `custom_cursor_colors` is true
 #  cursor:
 #    text: '0xbbbbbb'
@@ -944,30 +948,33 @@ mouse_bindings:
 # ------------------ Gnome ------------------------------------------------
 
 # Gnome (Gnome Terminal Default)
-colors:
+#colors:
   # Default colors
-  primary:
-    background: '0x1e1e1e'
-    foreground: '0xffffff'
+#  primary:
+#    background: '0x1e1e1e'
+#    foreground: '0xffffff'
 
   # Normal colors
-  normal:
-    black:      '0x171421'
-    red:        '0xc01c28'
-    green:      '0x26a269'
-    yellow:     '0xa2734c'
-    blue:       '0x12488b'
-    magenta:    '0xa347ba'
-    cyan:       '0x2aa1b3'
-    white:      '0xd0cfcc'
+#  normal:
+#    black:      '0x171421'
+#    red:        '0xc01c28'
+#    green:      '0x26a269'
+#    yellow:     '0xa2734c'
+#    blue:       '0x12488b'
+#    magenta:    '0xa347ba'
+#    cyan:       '0x2aa1b3'
+#    white:      '0xd0cfcc'
 
   # Bright colors
-  bright:
-    black:      '0x535c64'
-    red:        '0xf66151'
-    green:      '0x33d17a'
-    yellow:     '0xe9ad0c'
-    blue:       '0x2a7bde'
-    magenta:    '0xc061cb'
-    cyan:       '0x33c7de'
-    white:      '0xffffff'
+#  bright:
+#    black:      '0x535c64'
+#    red:        '0xf66151'
+#    green:      '0x33d17a'
+#    yellow:     '0xe9ad0c'
+#    blue:       '0x2a7bde'
+#    magenta:    '0xc061cb'
+#    cyan:       '0x33c7de'
+#    white:      '0xffffff'
+
+
+
